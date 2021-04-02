@@ -14,7 +14,7 @@
 
 
 
-**Introduction**
+## **Introduction**
 
 
 
@@ -28,7 +28,7 @@
 
 
 
-**Development Environment**
+## **Development Environment**
 
 * Firebase Realtime Database/Storage
 
@@ -47,11 +47,11 @@
 
   
 
-**Process**
+## **Process**
 
 
 
-*Data Analysis*
+### *Data Analysis*
 
 
 
@@ -104,7 +104,7 @@
 
 
 
-*App*
+### *App*
 
 
 
