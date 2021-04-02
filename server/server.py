@@ -33,7 +33,7 @@ port = 8080
 server_sock = socket.socket(socket.AF_INET)
 server_sock.bind((host, port))
 server_sock.listen(1)
-print("기다리는 중.123123.")
+print("기다리는 중...")
 out_data = int(10)
 
 while True:  # 안드로이드에서 연결 버튼 누를 때까지 기다림
@@ -51,11 +51,9 @@ while True:  # 안드로이드에서 연결 버튼 누를 때까지 기다림
                 'storageBucket': "kusitmsrider.appspot.com"
             })
         dir = db.reference()  # 기본 위치 지정
-
-
-        # 여따가 데분 과정 넣으면 될듯-----------
-
-
+        
+        
+        ## 데이터 분석 파트
 
         # 파일 읽어오기(readlines)
         def read_kko_msg(filename):
@@ -194,8 +192,7 @@ while True:  # 안드로이드에서 연결 버튼 누를 때까지 기다림
         df.dropna(inplace=True)
         df = df.reset_index(drop=True)
 
-        # ## 조원명에 대괄호 들어가는 에러 고치기
-
+        # 조원명에 대괄호 들어가는 에러 수정
         err_pattern = re.compile("\[(오전|오후) ([0-9:\s]+)\]")
         name_list = df['Speaker'].unique()
         err_list = []
@@ -204,10 +201,7 @@ while True:  # 안드로이드에서 연결 버튼 누를 때까지 기다림
                 err_list.append(name)
 
 
-        # err_list
-
-        # ## 피쳐 정리
-
+        # 피쳐 정리
         def preprocessing(df):
             name_arr = df['Speaker'].unique()
             name_list = []
@@ -223,8 +217,8 @@ while True:  # 안드로이드에서 연결 버튼 누를 때까지 기다림
                 else:
                     name_list.append(name)
                     continue
-
-                    # 피쳐 생성
+                    
+            # 피처 생성       
             for i in ['length', 'notice', 'vote', 'file', 'link', 'image', 'video', 'emoticon', 'group_call', '?', '!',
                       'happiness', 'sadness']:
                 feature.at[:, i] = 0
@@ -301,16 +295,15 @@ while True:  # 안드로이드에서 연결 버튼 누를 때까지 기다림
 
         feature = preprocessing(df)
 
-        # # minmaxscaler로 scaling하기
+        # minmaxscaler로 scaling하기
         feature_1 = feature.copy()
         minmaxscaler = MinMaxScaler(feature_range=(1, 5))
         minmaxscaler.fit(feature)
         feature_scaled = minmaxscaler.transform(feature)
         feature_scaled = pd.DataFrame(feature_scaled, columns=feature_1.columns, index=list(feature_1.index.values))
 
-        # # 가중치 조절 및 score column 만들기
-        ##계속 바뀔 예정
-        weight_list = [8, 0, 5, 0, 0, 0, 0, 0, 0, 4, 2, 2, 0, 0, 6, 4, 4]
+        # 가중치 조절 및 score column 만들기
+        weight_list = [10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 4, 8, 6]
 
         score = []
         for i in feature_scaled.index:
@@ -323,7 +316,7 @@ while True:  # 안드로이드에서 연결 버튼 누를 때까지 기다림
 
 
 
-        # # pie chart 그리기
+        # pie chart 그리기
         def piechart_score():
             ratio = []
             fre_score = feature_scaled['score'].sum()
@@ -350,13 +343,13 @@ while True:  # 안드로이드에서 연결 버튼 누를 때까지 기다림
         for i in range(0,len_rank):
             globals()['person{}'.format(i+1)] = rank_name_list[i]
             globals()['ratio{}'.format(i+1)] = rank_ratio_list[i]
+            
 
         # ----------------------------------
         # 1.png realtime database
 
 
-
-        #test.png storage
+        # test.png storage
         bucket = storage.bucket()
         blob = bucket.blob('result_chart.png')
         new_token = uuid4()
@@ -377,22 +370,26 @@ while True:  # 안드로이드에서 연결 버튼 누를 때까지 기다림
                   1))
         happy_rank_name = happy_name_list[0]
         happy_rank_ratio = happy_ratio_list[0]
+        
         # 울음왕
         sad_name_list = list(feature.sort_values(by='sadness', ascending=False).index)
         sad_ratio_list = list(
             round(feature.sort_values(by='sadness', ascending=False)['sadness'] / sum(feature['sadness']) * 100, 1))
         sad_rank_name = sad_name_list[0]
         sad_rank_ratio = sad_ratio_list[0]
+        
         # 물음표왕
         ques_name_list = list(feature.sort_values(by='?', ascending=False).index)
         ques_ratio_list = list(round(feature.sort_values(by='?', ascending=False)['?'] / sum(feature['?']) * 100, 1))
         ques_rank_name = ques_name_list[0]
         ques_rank_ratio = ques_ratio_list[0]
+        
         # 느낌표왕
         excm_name_list = list(feature.sort_values(by='!', ascending=False).index)
         excm_ratio_list = list(round(feature.sort_values(by='!', ascending=False)['!'] / sum(feature['!']) * 100, 1))
         excm_rank_name = excm_name_list[0]
         excm_rank_ratio = excm_ratio_list[0]
+        
         # 이모티콘왕
         imo_name_list = list(feature.sort_values(by='emoticon', ascending=False).index)
         imo_ratio_list = list(
