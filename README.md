@@ -1,5 +1,11 @@
 # MAYCAN Project 
 
+**App Logo**
+
+
+
+
+
 **Introduction**
 
 
@@ -16,9 +22,20 @@
 
 **Development Environment**
 
-* Firebase Server
+* Firebase Realtime Database/Storage
 
-* Android Studio @
+* TCP/IP Socket
+
+* AWS EC2 instance
+
+* Android Studio 4.1.1 
+
+  * compileSDKversion : 30
+  * buildToolsversion : 30.0.1
+
+  
+
+  
 
   
 
@@ -83,5 +100,30 @@
 
 
 
+* Server
 
+  AWS EC2 인스턴스를 이용하여 가상 서버를 실행하고 server.py 파일을 비롯한 서버 환경을 설치하여 인스턴스 내에서 서버 환경을 구축하였다.
 
+  
+
+* DB
+
+  Firebase Realtime Database를 사용하였다.
+
+  
+
+* Storage
+
+  이미지 파일과 txt 파일을 더 손 쉽게 입출력 하기 위해 Firebase 내의 Storage 시스템을 사용하였다.
+
+  
+
+* TCP/IP Socket 통신
+
+   App과 데이터 분석 처리의 통신을 위해 Android Studio와 Python의 TCP/IP Socket 통신을 이용하였다. 
+
+  
+
+* Process
+
+  어플과 Python에서 Socket으로 서버를 열고 파일을 Firebase DB에 올린 후 server.py에 통신을 보내면 python 에서 socket 통신을 받아 데이터 분석을 시작한다. 데이터 분석이 끝나면 python은 결과 값과 이미지를 각 Firebase Realtime Database와 Storage에 업데이트 하고 서버에 “show” Socket 메시지를 전송한다. 그 후 어플에서 socket 메시지를 받으면 분석 한 결과를 어플 프론트에 띄워 보여주도록 구현하였다.
