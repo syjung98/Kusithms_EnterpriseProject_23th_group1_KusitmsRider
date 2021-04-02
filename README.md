@@ -53,6 +53,8 @@
 
   * compileSDKversion : 30
   * buildToolsversion : 30.0.1
+  * SDK 11(API Level 30) 기준 호환
+  * s10, 노트10, onPrime7, a3 작동 검증
 
   
 
