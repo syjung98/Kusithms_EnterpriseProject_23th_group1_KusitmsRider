@@ -3,9 +3,6 @@
 **+) apk 파일 위치 : client\app-debug.apk**
 
 
-**+) 실행시 반드시 다크모드를 꺼주세요!**
-
-
 ## **App Logo**
 
 <img src="https://user-images.githubusercontent.com/68985625/113411433-adaa8600-93f0-11eb-9d71-2a793d1774e5.jpg" width="40%">
