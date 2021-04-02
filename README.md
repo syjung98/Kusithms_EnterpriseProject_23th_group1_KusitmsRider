@@ -53,8 +53,6 @@
 
 ## **실행 영상**
 
-https://user-images.githubusercontent.com/68985625/113426770-e9ecdf00-940e-11eb-8134-1f8daba836e2.mp4
-
 
 
 
