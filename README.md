@@ -1,11 +1,11 @@
 # MAYCAN Project 
 
-**App Logo**
+## **App Logo**
 
 <img src="https://user-images.githubusercontent.com/68985625/113411433-adaa8600-93f0-11eb-9d71-2a793d1774e5.jpg" width="40%">
 
 
-**실행 화면 캡쳐**
+## **실행 화면 캡쳐**
 
 <img src="https://user-images.githubusercontent.com/68985625/113413068-c2891880-93f4-11eb-82d9-7137f81c1ae3.jpg" width="40%"><img src="https://user-images.githubusercontent.com/68985625/113413069-c3ba4580-93f4-11eb-8ef3-87dc70e91bdb.jpg" width="40%">
 <img src="https://user-images.githubusercontent.com/68985625/113413070-c452dc00-93f4-11eb-8da4-2321a8b52a27.jpg" width="40%"><img src="https://user-images.githubusercontent.com/68985625/113413072-c452dc00-93f4-11eb-816d-e076093aba8a.jpg" width="40%">
