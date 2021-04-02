@@ -52,9 +52,8 @@
 
 
 ## **실행 영상**
-https://user-images.githubusercontent.com/68985625/113427447-fcb3e380-940f-11eb-9d8d-39b47426696d.mp4
 
-
+![시연영상](https://user-images.githubusercontent.com/68985625/113429510-9df06900-9413-11eb-88a2-36dcee6b8872.gif)
 
 
 
