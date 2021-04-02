@@ -1,9 +1,9 @@
 # MAYCAN Project 
 
-**apk 파일 위치 : client\app-debug.apk**
+**+) apk 파일 위치 : client\app-debug.apk**
 
 
-**실행시 반드시 다크모드를 꺼주세요!**
+**+) 실행시 반드시 다크모드를 꺼주세요!**
 
 
 ## **App Logo**
