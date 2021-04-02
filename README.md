@@ -10,28 +10,27 @@
 
 <img src="https://user-images.githubusercontent.com/68985625/113411433-adaa8600-93f0-11eb-9d71-2a793d1774e5.jpg" width="40%">
 
-
 ## **실행 화면 캡쳐**
 
 ### 
 #### -시작 화면, 업로드 화면
 
-<img src="https://user-images.githubusercontent.com/68985625/113413068-c2891880-93f4-11eb-82d9-7137f81c1ae3.jpg" width="40%">&nbsp;<img src="https://user-images.githubusercontent.com/68985625/113413069-c3ba4580-93f4-11eb-8ef3-87dc70e91bdb.jpg" width="40%">
+<img src="https://user-images.githubusercontent.com/68985625/113420173-d1c39280-9403-11eb-9a3c-1304879ccb3b.jpg" width="40%">&nbsp;<img src="https://user-images.githubusercontent.com/68985625/113420175-d2f4bf80-9403-11eb-9db4-62749efc2056.jpg" width="40%">
 
 ### 
-#### -업로드 화면, 로컬 저장소 접근
+#### -업로드 화면; 로컬 저장소 접근
 
-<img src="https://user-images.githubusercontent.com/68985625/113413070-c452dc00-93f4-11eb-8da4-2321a8b52a27.jpg" width="40%">&nbsp;<img src="https://user-images.githubusercontent.com/68985625/113413072-c452dc00-93f4-11eb-816d-e076093aba8a.jpg" width="40%">
+<img src="https://user-images.githubusercontent.com/68985625/113420178-d38d5600-9403-11eb-94c8-76d36e57c987.jpg" width="40%">
 
 ### 
 #### -로컬 저장소에서 업로드, 로딩
 
-<img src="https://user-images.githubusercontent.com/68985625/113413073-c4eb7280-93f4-11eb-999a-5f431a958f3b.jpg" width="40%">&nbsp;<img src="https://user-images.githubusercontent.com/68985625/113413074-c4eb7280-93f4-11eb-9e32-d4b98a61b833.jpg" width="40%">
+<img src="https://user-images.githubusercontent.com/68985625/113420179-d38d5600-9403-11eb-8b21-f9e2daa1f96a.jpg" width="40%">
 
 ### 
 #### -결과창(기여도, 왕 )
 
-<img src="https://user-images.githubusercontent.com/68985625/113413075-c5840900-93f4-11eb-93d2-5c21b4ed2b59.jpg" width="40%">&nbsp;<img src="https://user-images.githubusercontent.com/68985625/113413076-c5840900-93f4-11eb-85cb-0da569b59c16.jpg" width="40%">
+<img src="https://user-images.githubusercontent.com/68985625/113420180-d425ec80-9403-11eb-849c-149715436808.jpg" width="40%">&nbsp;<img src="https://user-images.githubusercontent.com/68985625/113420182-d425ec80-9403-11eb-9d5d-c8ec85539f7b.jpg" width="40%">
 
 
 # 
