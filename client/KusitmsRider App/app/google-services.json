@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "624858182093",
+    "project_id": "kusitmsrider",
+    "storage_bucket": "kusitmsrider.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624858182093:android:2d7e00c62c756dfaf25484",
+        "android_client_info": {
+          "package_name": "com.example.kusitmsrider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624858182093-5rr38fvgvpr8ens0p0ksu4qk91jdisse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkisXIzc25ayVw6hM3WCB6_77a5hY1Ci4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624858182093-5rr38fvgvpr8ens0p0ksu4qk91jdisse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
