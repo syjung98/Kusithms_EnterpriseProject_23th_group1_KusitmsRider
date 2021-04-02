@@ -52,7 +52,7 @@
 
 
 ## **실행 영상**
-<iframe width="80%" src="https://user-images.githubusercontent.com/68985625/113427447-fcb3e380-940f-11eb-9d8d-39b47426696d.mp4" ></iframe>
+https://user-images.githubusercontent.com/68985625/113427447-fcb3e380-940f-11eb-9d8d-39b47426696d.mp4
 
 
 
