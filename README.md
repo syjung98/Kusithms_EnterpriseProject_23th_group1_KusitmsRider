@@ -52,7 +52,6 @@
 
 
 ## **실행 영상**
-<iframe src="https://user-images.githubusercontent.com/68985625/113429510-9df06900-9413-11eb-88a2-36dcee6b8872.gif" width="40%"></iframe>
 ![시연영상](https://user-images.githubusercontent.com/68985625/113429510-9df06900-9413-11eb-88a2-36dcee6b8872.gif)
 
 
