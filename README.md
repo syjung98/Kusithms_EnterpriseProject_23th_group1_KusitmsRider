@@ -1,6 +1,7 @@
 # MAYCAN Project 
 
 **apk 파일 위치 : client\app-debug.apk**
+**실행시 반드시 다크모드를 꺼주세요!**
 
 
 ## **App Logo**
@@ -61,7 +62,6 @@
   * compileSDKversion : 30
   * buildToolsversion : 30.0.1
   * SDK 11(API Level 30) 기준 호환
-  * s10, 노트10, onPrime7, a3 작동 검증
 
   
 
