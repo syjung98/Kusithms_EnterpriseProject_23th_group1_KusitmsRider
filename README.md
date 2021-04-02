@@ -1,5 +1,6 @@
 # MAYCAN Project 
-<img src="https://user-images.githubusercontent.com/68985625/113411433-adaa8600-93f0-11eb-9d71-2a793d1774e5.jpg" width="40%" float="center">
+
+<img src="https://user-images.githubusercontent.com/68985625/113411433-adaa8600-93f0-11eb-9d71-2a793d1774e5.jpg" width="40%" diplay="block">
 
 **Introduction**
 
