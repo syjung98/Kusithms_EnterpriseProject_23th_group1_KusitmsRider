@@ -1,4 +1,5 @@
 # MAYCAN Project 
+
 **apk 파일 위치 : client\app-debug.apk
 
 
@@ -9,24 +10,28 @@
 
 ## **실행 화면 캡쳐**
 
+###
 #### 시작 화면, 업로드 화면
 
 <img src="https://user-images.githubusercontent.com/68985625/113413068-c2891880-93f4-11eb-82d9-7137f81c1ae3.jpg" width="40%">&nbsp;<img src="https://user-images.githubusercontent.com/68985625/113413069-c3ba4580-93f4-11eb-8ef3-87dc70e91bdb.jpg" width="40%">
 
+###
 #### 업로드 화면, 로컬 저장소 접근
 
 <img src="https://user-images.githubusercontent.com/68985625/113413070-c452dc00-93f4-11eb-8da4-2321a8b52a27.jpg" width="40%">&nbsp;<img src="https://user-images.githubusercontent.com/68985625/113413072-c452dc00-93f4-11eb-816d-e076093aba8a.jpg" width="40%">
 
+###
 #### 로컬 저장소에서 업로드, 로딩
 
 <img src="https://user-images.githubusercontent.com/68985625/113413073-c4eb7280-93f4-11eb-999a-5f431a958f3b.jpg" width="40%">&nbsp;<img src="https://user-images.githubusercontent.com/68985625/113413074-c4eb7280-93f4-11eb-9e32-d4b98a61b833.jpg" width="40%">
 
+###
 #### 결과창(기여도, 왕 )
 
 <img src="https://user-images.githubusercontent.com/68985625/113413075-c5840900-93f4-11eb-93d2-5c21b4ed2b59.jpg" width="40%">&nbsp;<img src="https://user-images.githubusercontent.com/68985625/113413076-c5840900-93f4-11eb-85cb-0da569b59c16.jpg" width="40%">
 
 
-
+#
 ## **Introduction**
 
 
@@ -42,7 +47,7 @@
 
 
 
-
+#
 ## **Development Environment**
 
 ### * Firebase Realtime Database/Storage
@@ -63,7 +68,7 @@
   
 
   
-
+#
 ## **Process**
 
 
