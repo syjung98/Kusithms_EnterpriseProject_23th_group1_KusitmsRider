@@ -7,19 +7,19 @@
 
 ## **실행 화면 캡쳐**
 
-*시작 화면, 업로드 화면*
+#### *시작 화면, 업로드 화면*
 
 <img src="https://user-images.githubusercontent.com/68985625/113413068-c2891880-93f4-11eb-82d9-7137f81c1ae3.jpg" width="40%">&nbsp;<img src="https://user-images.githubusercontent.com/68985625/113413069-c3ba4580-93f4-11eb-8ef3-87dc70e91bdb.jpg" width="40%">
 
-*업로드 화면, 로컬 저장소 접근*
+####*업로드 화면, 로컬 저장소 접근*
 
 <img src="https://user-images.githubusercontent.com/68985625/113413070-c452dc00-93f4-11eb-8da4-2321a8b52a27.jpg" width="40%">&nbsp;<img src="https://user-images.githubusercontent.com/68985625/113413072-c452dc00-93f4-11eb-816d-e076093aba8a.jpg" width="40%">
 
-*로컬 저장소에서 업로드, 로딩*
+####*로컬 저장소에서 업로드, 로딩*
 
 <img src="https://user-images.githubusercontent.com/68985625/113413073-c4eb7280-93f4-11eb-999a-5f431a958f3b.jpg" width="40%">&nbsp;<img src="https://user-images.githubusercontent.com/68985625/113413074-c4eb7280-93f4-11eb-9e32-d4b98a61b833.jpg" width="40%">
 
-*결과창(기여도, 왕 )*
+####*결과창(기여도, 왕 )*
 
 <img src="https://user-images.githubusercontent.com/68985625/113413075-c5840900-93f4-11eb-93d2-5c21b4ed2b59.jpg" width="40%">&nbsp;<img src="https://user-images.githubusercontent.com/68985625/113413076-c5840900-93f4-11eb-85cb-0da569b59c16.jpg" width="40%">
 
@@ -41,13 +41,13 @@
 
 ## **Development Environment**
 
-* Firebase Realtime Database/Storage
+### * Firebase Realtime Database/Storage
 
-* TCP/IP Socket
+### * TCP/IP Socket
 
-* AWS EC2 instance
+### * AWS EC2 instance
 
-* Android Studio 4.1.1 
+### * Android Studio 4.1.1 
 
   * compileSDKversion : 30
   * buildToolsversion : 30.0.1
@@ -66,7 +66,7 @@
 
 
 
-* Define Problem
+#### * Define Problem
 
   카톡 대화내용을 기반으로 프로젝트의 기여도를 측정하고 참여가 저조한 조원을 찾아낸다. 앱을 통하여 카톡 대화 데이터를 입력받고 분석을 통하여 기여도를 추출하는 과정을 가진다.
 
@@ -74,7 +74,7 @@
 
 
 
-* Data Collection
+#### * Data Collection
 
   카톡 데이터를 통하여 프로젝트의 기여도를 측정하기 때문에 프로젝트에 관련한 카톡데이터를 수집하였다.
 
@@ -82,7 +82,7 @@
 
 
 
-* Data Processing
+#### * Data Processing
 
   카톡 데이터를 수집하는 과정에서 웹으로 카톡 대화 내용을 추출한 파일과 안드로이드 앱과 IOS 앱을 통하여 카톡 대화내용을 추출한 파일의 형식이 다르다는 점을 발견하였다. 그렇기에 전처리하는 과정에서 정규표현식을 이용하여 각 파일에 대하여 동일하게 분석을 진행하였다. 각 feature들을 Engineering하기에 앞서 각 feature들의 범위가 다르기 때문에 Minmaxscaler를 통하여 각 feature들의 범위를 1부터 5까지 Scaling하였다.
 
@@ -90,7 +90,7 @@
 
 
 
-* Feature Engineering
+#### * Feature Engineering
 
   조원들의 기여도를 측정함에 있어서 필요한 Feature들을 회귀 분석을 통하여 선정하였다. 회귀분석에 의해 기여도에 영향을 많이 주는 feature들의 계수는 다음과 같다.  
 
@@ -107,7 +107,7 @@
 
 
 
-* Visualization and Insight
+#### * Visualization and Insight
 
   회귀분석을 통하여 각 feature들에 가중치를 주어 조원들의 참여 점수를 Score로설정하였다. Score를 기준으로 각 조원들의 기여도의 백분율을 Pie chart로 표현하였다.  추가적인 구현으로는 ㅋ을 많이 보낸 사람, ㅠ를 많이 보낸 사람, !을 많이 보낸 사람, ?을 많이 보낸 사람, 이모티콘을 많이 보낸 사람을 선정하여 출력하였다. 
 
@@ -119,31 +119,31 @@
 
 
 
-* Server
+#### * Server
 
   AWS EC2 인스턴스를 이용하여 가상 서버를 실행하고 server.py 파일을 비롯한 서버 환경을 설치하여 인스턴스 내에서 서버 환경을 구축하였다.
 
   
 
-* DB
+#### * DB
 
   Firebase Realtime Database를 사용하였다.
 
   
 
-* Storage
+#### * Storage
 
   이미지 파일과 txt 파일을 더 손 쉽게 입출력 하기 위해 Firebase 내의 Storage 시스템을 사용하였다.
 
   
 
-* TCP/IP Socket 통신
+#### * TCP/IP Socket 통신
 
    App과 데이터 분석 처리의 통신을 위해 Android Studio와 Python의 TCP/IP Socket 통신을 이용하였다. 
 
   
 
-* Process
+#### * Process
 
   어플과 Python에서 Socket으로 서버를 열고 파일을 Firebase DB에 올린 후 server.py에 통신을 보내면 python 에서 socket 통신을 받아 데이터 분석을 시작한다. 데이터 분석이 끝나면 python은 결과 값과 이미지를 각 Firebase Realtime Database와 Storage에 업데이트 하고 서버에 “show” Socket 메시지를 전송한다. 그 후 어플에서 socket 메시지를 받으면 분석 한 결과를 어플 프론트에 띄워 보여주도록 구현하였다.
 
