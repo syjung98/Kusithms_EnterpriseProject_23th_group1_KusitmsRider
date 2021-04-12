@@ -3,6 +3,22 @@
 **+) apk 파일 위치 : client\app-debug.apk**
 
 
+**+) 앱과 파이썬의 연동성 문제로 인해 서버가 잠시 끊길 때가 있습니다. 혹시 그런 일이 발생한다면 연락부탁드립니다.**
+
+
+
+**☎ 서버 관리자 이승희 : 010 3833 9124**
+
+[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rmaskdus0208@gmail.com)](mailto:rmaskdus0208@gmail.com)
+
+
+
+
+### Hi there 👋
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhuiseon37&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
+
 ## **App Logo**
 
 <img src="https://user-images.githubusercontent.com/68985625/113411433-adaa8600-93f0-11eb-9d71-2a793d1774e5.jpg" width="40%">
