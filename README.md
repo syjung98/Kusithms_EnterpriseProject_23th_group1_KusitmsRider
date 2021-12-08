@@ -6,9 +6,6 @@
 **+) 앱과 파이썬의 연동성 문제로 인해 서버가 잠시 끊길 때가 있습니다. 혹시 그런 일이 발생한다면 연락부탁드립니다.**
 
 
-
-**☎ 서버 관리자 이승희 : 010 3833 9124**
-
 [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rmaskdus0208@gmail.com)](mailto:rmaskdus0208@gmail.com)
 
 
